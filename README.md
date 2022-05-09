@@ -12,13 +12,14 @@ Load the preprocessed data from above step to start training for one of the give
 
 | Model      | Command |
 | ----------- | ----------- |
-| BoT Baseline      |        |
-| BoT Baseline w/ Cat 0 Dense   | Text        |
-| BoT Baseline w/ Cat 1 Dense   | Text        |
-| BoT Baseline w/ Cat 2 Dense   | Text        |
-| BoT Baseline w/ Cat 3 Dense   | Text        |
+| BoT Baseline      | <pre><code> python final_codes/<model.py/parallel_model.py> --model bot </code></pre> |
+| BoT Baseline w/ Cat 0 Dense   | <pre><code> python final_codes/<model.py/parallel_model.py> --model bot --category</code></pre> |
+| BoT Baseline w/ Cat 1 Dense   | <pre><code> python final_codes/<model.py/parallel_model.py> --model bot --category --fullyConnected 120</code></pre> |
+| BoT Baseline w/ Cat 2 Dense   | <pre><code> python final_codes/<model.py/parallel_model.py> --model bot --category --fullyConnected 200 100</code></pre> |
+| BoT Baseline w/ Cat 3 Dense   | <pre><code> python final_codes/<model.py/parallel_model.py> --model bot --category --fullyConnected 230 170 110</code></pre> |
 | CNN Baseline      | <pre><code> python final_codes/<model.py/parallel_model.py> --model cnn </code></pre> |
 | CNN Baseline w/ Cat 0 Dense   | <pre><code> python final_codes/<model.py/parallel_model.py> --model cnn --category </code></pre> |
 | CNN Baseline w/ Cat 1 Dense   | <pre><code> python final_codes/<model.py/parallel_model.py> --model cnn --category --fullyConnected 3000 </code></pre> |
 | CNN Baseline w/ Cat 2 Dense   | <pre><code> python final_codes/<model.py/parallel_model.py> --model cnn --category --fullyConnected 3000 500  </code></pre> |
 | CNN Baseline w/ Cat 3 Dense   | <pre><code> python final_codes/<model.py/parallel_model.py> --model cnn --category --fullyConnected 3000 700 200 </code></pre> |
+| CNN 3-Conv1D   | <pre><code> python final_codes/<model.py/parallel_model.py> --model cnn3 </code></pre> |
